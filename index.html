@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <section>
+        <h1>To-do List</h1>
+        <p>Created by Kalif Kai Permadi</p>
+        <p>Left click to mark, right click to delete</p>
+        <form id="todolist">
+            <div class="input">
+                <input type="text" id="textInput" placeholder="Enter your to-do" autocomplete="off">
+                <input type="date" id="dateInput">
+            </div>
+            <button type="submit">Enter</button>
+        </form>
+        <div class="list">
+            <ul id="todos"></ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
